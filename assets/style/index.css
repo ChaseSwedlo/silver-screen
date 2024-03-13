@@ -12,11 +12,12 @@
 
 body {
     font-family: "Inter", Arial, sans-serif;
+    background-color: rgb(33, 33, 33);
 }
 
 /*Top Movies*/
 .top-movies {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(33, 33, 33);
     padding: var(--defualt-margin) 0;
 }
 
@@ -150,17 +151,6 @@ body {
     color: #fff;
     display: grid;
     align-items: baseline;
-}
-
-.box:before  {
-    position: absolute;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3));
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0 0 0 / 1%);
-    content: '';
 }
 
 .snap {
@@ -312,7 +302,8 @@ h3 {
   /*-------------------------------------------------*/
 
 
-.container {
+.container-yang {
+    padding: var(--defualt-margin) 0;
     width: 100svw;
     /* height: 50vh; */
     align-items: center;
@@ -320,7 +311,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background-color: #e6d5f3; */
+    background-color: rgb(24, 24, 24);
 }
 
 
@@ -430,6 +421,8 @@ h3 {
 /* -------------Contact Form and Map-------------------------- */
 
 .contact-map-container {
+    margin: var(--defualt-margin) 0;
+    background-color: rgb(33, 33, 33);
     width: 1040px;
     /* height: 50vh; */
     align-items: center;
@@ -442,6 +435,7 @@ h3 {
 .contact-form {
     width: 300px;
     margin: 0 auto;
+    padding: var(--defualt-margin) 0;
 }
 
 
@@ -457,6 +451,7 @@ h3 {
 label {
     display: block;
     margin-bottom: 5px;
+    color: #fff;
 }
 
 input[type="text"],
