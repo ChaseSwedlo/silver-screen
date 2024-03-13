@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+:root {
+    --defualt-margin: 60px;
+}
+
+.container {
+    width: min(100% - 60px, 1080px);
+    margin-inline: auto;
+}
+
+body {
+    font-family: "Inter", Arial, sans-serif;
+}
+
+/*Top Movies*/
+.top-movies {
+    background-color: rgb(213, 213, 213);
+    padding: var(--defualt-margin) 0;
+}
+
+.top-ten-movies {
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin-left: 60px;
+}
+
+.top-movies-title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    line-height: 1;
+}
+
+.movie-box {
+    height: 200px;
+}
+
+.num-one {
+    width: 227px;
+}
+
+.num-two {
+    width: 253px;
+}
+
+.num-three {
+    width: 258px;
+}
+
+.num-four, .num-five, .num-six {
+    width: 261px;
+}
+
+.num-seven {
+    width: 241px;
+}
+
+.num-eight, .num-nine {
+    width: 259px;
+}
+
+.num-ten {
+    width: 287px;
+}
+
+.movie-box figure{
+    height: 200px;
+    width: 159px;
+}
+
+.movie-box h1 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0;
+    font-size: 264px;
+    margin-top: -32px;
+    line-height: 1;
+    color: white;
+}
+
+.num-one h1 {
+    margin-right: -40px;
+}
+
+.num-two h1 {
+    margin-right: -50px;
+}
+
+.num-four h1, .num-five h1, .num-six h1 {
+    margin-right: -57px;
+}
+
+.num-three h1, .num-seven h1, .num-eight h1, .num-nine h1 {
+    margin-right: -55px;
+}
+
+.num-ten h1 {
+    letter-spacing: -26px;
+    margin-top: 4px;
+    font-size: 200px;
+    margin-right: -32px;
+}
+
+/*
+    Tried to use :not(.numfour) here but would not work
+    Had to resort to hard coding it
+*/
+.num-one, .num-two, .num-three, 
+.num-five, .num-six, .num-seven, 
+.num-eight, .num-nine, .num-ten {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.num-four {
+    text-shadow:
+      3px 3px 0 #000,
+      -3px 3px 0 #000,
+      -3px -3px 0 #000,
+      3px -3px 0 #000;
+  }
+/*Top Movies end*/
