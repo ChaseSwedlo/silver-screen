@@ -3,7 +3,7 @@
     --background: rgb(246, 246, 250);
     --header-color: #0b132b;
     --header-height: 48px;
-    --primary-color: #e36f1c
+    --primary-color: #e36f1c;
 }
 
 .flex {
@@ -110,6 +110,8 @@ ul li a:hover, .login-button:hover{
 .form-box h2 {
     text-align: center;
     margin-bottom: 6px;
+    font-size: 18px;
+    color: #000;
 }
 
 .log-in-form .button {
@@ -167,7 +169,7 @@ ul li a:hover, .login-button:hover{
 /*footer*/
 footer {
     height: 124px;
-    background-color: rgb(33, 33, 34);
+    background-color:#242529;
 }
 
 .cc {
@@ -193,18 +195,16 @@ footer {
     width: 210px;
     padding: 0 12px;
     margin-top: -20px;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
+    
     border: 1px solid rgba(0, 0, 0, 0.342);
 }
 
 .footer-button {
     height: 36px;
-    background-color: #007fff;
+    background-color: #e36f1c;
     padding: 0 12px;
     margin-top: -20px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    
     color: white;
     font-weight: 500;
     margin-bottom: 5px;
@@ -212,10 +212,10 @@ footer {
 }
 
 .footer-button:hover {
-    background-color: #006ad5;
+    background-color: #ec873f;
 }
 
 .footer-button:active {
-    background-color: #1d5c9b;
+    background-color: #c8661f;
 }
 /*end footer*/
