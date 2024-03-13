@@ -1,339 +1,349 @@
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="">
-        <meta name="description" content="">
-        <meta name="keywords" content="html, css, web, web development">
-        <title>Final project</title>
-        <link rel="icon" href="./assets/media/favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
-        <link rel="stylesheet" href="./assets/style/index.css">
-        <link rel="stylesheet" href="./assets/style/common.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="./assets/script/app.js" defer></script>
-    </head>
-    <body>
-        <div class="landing-page">
-            <div>
-              <header>
-                <div class="container">
-                    <div class="sb flex">
-                        <h1>SilverScreen</h1>
-                        <nav>
-                            <ul class="flex gap-40">
-                                <li><button class="login-button"><i class="fa-solid fa-user"></i><button></li>
-                                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                                <li><a href="#"><i class="fa-solid fa-clapperboard"></i></a></li>
-                                <li><a href="#"><i class="fa-solid fa-ticket"></i></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
-              <section class="scroll snap flex">
-                <div class="box dune">
-                  <div class="info container">
-                    
-                    <h2>DUNE: Part Two</h2>
-                    <div class="movie-info flex">
-                      <p>2h 46min</p>
-                      <p><span>PG-13</span></p>
-                      <p>Sci-fi/Adventure</p>
-                    </div>
-                    <button class="movie-ticket">Get Tickets</button>
-      
-                  </div>
-                </div>
-                <div class="box argylle">
-                  <div class="info container">
-                    <h2>ARGYLLE</h2>
-                    <div class="movie-info flex">
-                      <p>2h 19min</p>
-                      <p><span>PG-13</span></p>
-                      <p>Action/Adventure</p>
-                    </div>
-                    <button class="movie-ticket">Get Tickets</button>
-                  </div>
-                </div>
-                <div class="box poor-things">
-                  <div class="info container">
-                    <h2>POOR THINGS</h2>
-                    <div class="movie-info flex">
-                      <p>2h 21min</p>
-                      <p><span>R</span></p>
-                      <p>Comedy/Adventure</p>
-                    </div>
-                    <button class="movie-ticket">Get Tickets</button>
-                  </div>
-                </div>
-                <div class="box cabrini">
-                  <div class="info container">
-                    <h2>CABRINI</h2>
-                    <div class="movie-info flex">
-                      <p>2h 15min</p>
-                      <p><span>PG-13</span></p>
-                      <p>Biography/History</p>
-                    </div>
-                    <button class="movie-ticket">Get Tickets</button>
-                  </div>
-                </div>
-                <div class="box madam-web">
-                  <div class="info container">
-                    <h2>MADAM WEB</h2>
-                    <div class="movie-info flex">
-                      <p>1h 56min</p>
-                      <p><span>PG-13</span></p>
-                      <p>Action/Adventure</p>
-                    </div>
-                    <button class="movie-ticket">Get Tickets</button>
-                  </div>
-                </div>
-                <div class="box one-life">
-                  <div class="info container">
-                    <h2>ONE LIFE</h2>
-                    <div class="movie-info flex">
-                      <p>1h 49min</p>
-                      <p><span>PG</span></p>
-                      <p>History/Drama</p>
-                    </div>
-                    <button class="movie-ticket">Get Tickets</button>
-                  </div>
-                </div>
-              </section>
-        
-              <button class="left scroll-button"><li><i class="fa-solid fa-chevron-left"></i></li></button>
-              <button class="right scroll-button"><li><i class="fa-solid fa-chevron-right"></i></li></button>
-            </div>
-        <main>
-            <div class="log-in hidden">
-                <div class="dark-background">
-                    <div class="form-box">
-                        <h2>Create account</h2>
-                        <form class="log-in-form">
-                            <input type="text" class="email" placeholder="Email*">
-                            <input type="text" class="password" placeholder="Password*">
-                            <input type="text" class="fname" placeholder="First Name">
-                            <input type="text" class="lname" placeholder="Last name">
-                            <button class="button">Submit</button>
-                            <p class="pass-text hide-password-text">
-                                Password must have length of 5 or more and no spaces
-                            </p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <section class="top-movies">
-                <div class="container">
-                    <h3 class="top-movies-title">Top 10 movies today</h3>
-                    <div class="top-ten-movies flex gap-40">
-                        <div class="movie-box num-one flex">
-                            <h1>1</h1>
-                            <figure>
-                                <img src="./assets/media/dune.png" alt="dune">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-two flex">
-                            <h1>2</h1>
-                            <figure>
-                                <img src="./assets/media/ghostbusters.png" alt="Ghostbusters">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-three flex">
-                            <h1>3</h1>
-                            <figure>
-                                <img src="./assets/media/wonka.png" alt="Wonka">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-four flex">
-                            <h1>4</h1>
-                            <figure>
-                                <img src="./assets/media/madame-web.png" alt="MadameWeb">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-five flex">
-                            <h1>5</h1>
-                            <figure>
-                                <img src="./assets/media/kung-fu-panda.png" alt="KungFuPanda">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-six flex">
-                            <h1>6</h1>
-                            <figure>
-                                <img src="./assets/media/hunger-games.png" alt="HungerGames">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-seven flex">
-                            <h1>7</h1>
-                            <figure>
-                                <img src="./assets/media/poor-things.png" alt="PoorThings">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-eight flex">
-                            <h1>8</h1>
-                            <figure>
-                                <img src="./assets/media/immaculate.png" alt="Immaculate">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-nine flex">
-                            <h1>9</h1>
-                            <figure>
-                                <img src="./assets/media/migration.png" alt="Migration">
-                            </figure>
-                        </div>
-                        <div class="movie-box num-ten flex">
-                            <h1>10</h1>
-                            <figure>
-                                <img src="./assets/media/one-love.png" alt="OneLove">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <!--PRODUCTS IMAGES -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="keywords" content="html, css, web, web development">
+  <title>Final project</title>
+  <link rel="icon" href="./assets/media/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css">
+  <link rel="stylesheet" href="./assets/style/index.css">
+  <link rel="stylesheet" href="./assets/style/common.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./assets/script/app.js" defer></script>
+</head>
 
-            <section class="photo-container">
-              <div class="container-yang">
-            
-                <div class="card">
-                  <img src="./assets/images/image-08.png" alt="">
-                  <div class="text">
-                    <h2>The stars' secret </h2>
-                    <p> the moon falls into the deep sea</p>
-                    <!-- <button class="btn">Play</button> -->
-                    <a href="your-link-here" class="btn" target="_blank">Play</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="./assets/images/image-07.png" alt="">
-                  <div class="text">
-                    <h2>Do not say goodbye</h2>
-                    <p>and the moon falls into the deep sea</p>
-                    <a href="your-link-here" class="btn" target="_blank">Play</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="./assets/images/image-06.png" alt="">
-                  <div class="text">
-                    <h2>The master</h2>
-                    <p>see thousands of stars shinning</p>
-                    <a href="your-link-here" class="btn" target="_blank">Play</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="./assets/images/image-05.png" alt="">
-                  <div class="text">
-                    <h2>Second Time</h2>
-                    <p>to buy more stars from the shop</p>
-                    <a href="your-link-here" class="btn" target="_blank">Play</a>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="./assets/images/image-04.png" alt="">
-                  <div class="text">
-                    <h2>Second Time</h2>
-                    <p>to buy more stars from the shop</p>
-                    <a href="your-link-here" class="btn" target="_blank">Play</a>
-                  </div>
-                </div>
-                <!-- photoes:second row  -->
-                <div class="container-yang">
-                  <div class="card">
-                    <img src="./assets/images/image-01.png" alt="">
-                    <div class="text">
-                      <h2>Twilight</h2>
-                      <p>and the moon falls into the deep sea</p>
-                      <a href="your-link-here" class="btn" target="_blank">Play</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="./assets/images/image-02.png" alt="">
-                    <div class="text">
-                      <h2> Games of Thrones</h2>
-                      <p>and the moon falls into the deep sea</p>
-                      <a href="your-link-here" class="btn" target="_blank">Play</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="./assets/images/image-03.png" alt="">
-                    <div class="text">
-                      <h2>Pigy pigy</h2>
-                      <p>see thousands of stars shinning</p>
-                      <a href="your-link-here" class="btn" target="_blank">Play</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="./assets/images/image-04.png" alt="">
-                    <div class="text">
-                      <h2> Prison break</h2>
-                      <p>see thousands of stars shinning</p>
-                      <a href="your-link-here" class="btn" target="_blank">Play</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <img src="./assets/images/image-01.png" alt="">
-                    <div class="text">
-                      <h2> Prison break</h2>
-                      <p>see thousands of stars shinning</p>
-                      <a href="your-link-here" class="btn" target="_blank">Play</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <!-- contact form and map -->
-            <!-- contact form and map -->
-            <section class="contact-map-container">
-              <!-- Contact form -->
-              <div class="contact-form">
-                <h2>Contact Us</h2>
-                <form action="#" method="POST">
-                  <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                  </div>
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-              <!-- Map -->
-              <div class="map">
-                <h2>Location</h2>
-                <div id="google-map">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d328687.06272012653!2d-97.1620006!3d49.9388241!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1710294719072!5m2!1sen!2sca"
-                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-              </div>
-            
-            </section>
-        </main>
-        <footer>
-            <div class="container flex sb">
-                <div class="new-movies-alert">
-                    <p>Receive new movie alerts</p>
-                    <form class="flex footer-form">
-                        <input type="text" class="footer-email" placeholder="Email">
-                        <button class="footer-button">Submit</button>
-                    </form>
-                </div>
-                <p class="cc">&copy; final-project 2024</p>
+<body>
+  <div class="landing-page">
+    <div>
+      <header>
+        <div class="container">
+          <div class="sb flex">
+            <h1>SilverScreen</h1>
+            <nav>
+              <ul class="flex gap-40">
+                <li><button class="login-button"><i class="fa-solid fa-user"></i><button></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-clapperboard"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-ticket"></i></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <section class="scroll snap flex">
+        <div class="box dune">
+          <div class="info container">
+
+            <h2>DUNE: Part Two</h2>
+            <div class="movie-info flex">
+              <p>2h 46min</p>
+              <p><span>PG-13</span></p>
+              <p>Sci-fi/Adventure</p>
             </div>
-        </footer>
-    </body>
-    <!-- Hello -->
+            <button class="movie-ticket">Get Tickets</button>
+
+          </div>
+        </div>
+        <div class="box argylle">
+          <div class="info container">
+            <h2>ARGYLLE</h2>
+            <div class="movie-info flex">
+              <p>2h 19min</p>
+              <p><span>PG-13</span></p>
+              <p>Action/Adventure</p>
+            </div>
+            <button class="movie-ticket">Get Tickets</button>
+          </div>
+        </div>
+        <div class="box poor-things">
+          <div class="info container">
+            <h2>POOR THINGS</h2>
+            <div class="movie-info flex">
+              <p>2h 21min</p>
+              <p><span>R</span></p>
+              <p>Comedy/Adventure</p>
+            </div>
+            <button class="movie-ticket">Get Tickets</button>
+          </div>
+        </div>
+        <div class="box cabrini">
+          <div class="info container">
+            <h2>CABRINI</h2>
+            <div class="movie-info flex">
+              <p>2h 15min</p>
+              <p><span>PG-13</span></p>
+              <p>Biography/History</p>
+            </div>
+            <button class="movie-ticket">Get Tickets</button>
+          </div>
+        </div>
+        <div class="box madam-web">
+          <div class="info container">
+            <h2>MADAM WEB</h2>
+            <div class="movie-info flex">
+              <p>1h 56min</p>
+              <p><span>PG-13</span></p>
+              <p>Action/Adventure</p>
+            </div>
+            <button class="movie-ticket">Get Tickets</button>
+          </div>
+        </div>
+        <div class="box one-life">
+          <div class="info container">
+            <h2>ONE LIFE</h2>
+            <div class="movie-info flex">
+              <p>1h 49min</p>
+              <p><span>PG</span></p>
+              <p>History/Drama</p>
+            </div>
+            <button class="movie-ticket">Get Tickets</button>
+          </div>
+        </div>
+      </section>
+
+      <button class="left scroll-button">
+        <li><i class="fa-solid fa-chevron-left"></i></li>
+      </button>
+      <button class="right scroll-button">
+        <li><i class="fa-solid fa-chevron-right"></i></li>
+      </button>
+    </div>
+    <main>
+      <div class="log-in hidden">
+        <div class="dark-background">
+          <div class="form-box">
+            <h2>Create account</h2>
+            <form class="log-in-form">
+              <input type="text" class="email" placeholder="Email*">
+              <input type="text" class="password" placeholder="Password*">
+              <input type="text" class="fname" placeholder="First Name">
+              <input type="text" class="lname" placeholder="Last name">
+              <button class="button">Submit</button>
+              <p class="pass-text hide-password-text">
+                Password must have length of 5 or more and no spaces
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <section class="top-movies">
+        <div class="container">
+          <h3 class="top-movies-title">Top 10 movies today</h3>
+          <div class="top-ten-movies flex gap-40">
+            <div class="movie-box num-one flex">
+              <h1>1</h1>
+              <figure>
+                <img src="./assets/media/dune.png" alt="dune">
+              </figure>
+            </div>
+            <div class="movie-box num-two flex">
+              <h1>2</h1>
+              <figure>
+                <img src="./assets/media/ghostbusters.png" alt="Ghostbusters">
+              </figure>
+            </div>
+            <div class="movie-box num-three flex">
+              <h1>3</h1>
+              <figure>
+                <img src="./assets/media/wonka.png" alt="Wonka">
+              </figure>
+            </div>
+            <div class="movie-box num-four flex">
+              <h1>4</h1>
+              <figure>
+                <img src="./assets/media/madame-web.png" alt="MadameWeb">
+              </figure>
+            </div>
+            <div class="movie-box num-five flex">
+              <h1>5</h1>
+              <figure>
+                <img src="./assets/media/kung-fu-panda.png" alt="KungFuPanda">
+              </figure>
+            </div>
+            <div class="movie-box num-six flex">
+              <h1>6</h1>
+              <figure>
+                <img src="./assets/media/hunger-games.png" alt="HungerGames">
+              </figure>
+            </div>
+            <div class="movie-box num-seven flex">
+              <h1>7</h1>
+              <figure>
+                <img src="./assets/media/poor-things.png" alt="PoorThings">
+              </figure>
+            </div>
+            <div class="movie-box num-eight flex">
+              <h1>8</h1>
+              <figure>
+                <img src="./assets/media/immaculate.png" alt="Immaculate">
+              </figure>
+            </div>
+            <div class="movie-box num-nine flex">
+              <h1>9</h1>
+              <figure>
+                <img src="./assets/media/migration.png" alt="Migration">
+              </figure>
+            </div>
+            <div class="movie-box num-ten flex">
+              <h1>10</h1>
+              <figure>
+                <img src="./assets/media/one-love.png" alt="OneLove">
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--PRODUCTS IMAGES -->
+
+      <section class="photo-container">
+        <div class="container-yang">
+
+          <div class="card">
+            <img src="./assets/media/image-01.png" alt="">
+            <div class="text">
+              <h2>The stars' secret </h2>
+              <p> the moon falls into the deep sea</p>
+              <!-- <button class="btn">Play</button> -->
+              <a href="your-link-here" class="btn" target="_blank">Play</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/media/image-02.png" alt="">
+            <div class="text">
+              <h2>Do not say goodbye</h2>
+              <p>and the moon falls into the deep sea</p>
+              <a href="your-link-here" class="btn" target="_blank">Play</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/media/image-03.png" alt="">
+            <div class="text">
+              <h2>The master</h2>
+              <p>see thousands of stars shinning</p>
+              <a href="your-link-here" class="btn" target="_blank">Play</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/media/image-04.png" alt="">
+            <div class="text">
+              <h2>Second Time</h2>
+              <p>to buy more stars from the shop</p>
+              <a href="your-link-here" class="btn" target="_blank">Play</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/media/image-05.png" alt="">
+            <div class="text">
+              <h2>Second Time</h2>
+              <p>to buy more stars from the shop</p>
+              <a href="your-link-here" class="btn" target="_blank">Play</a>
+            </div>
+          </div>
+          <!-- photoes:second row  -->
+          <div class="container-yang">
+            <div class="card">
+              <img src="./assets/media/image-06.png" alt="">
+              <div class="text">
+                <h2>Twilight</h2>
+                <p>and the moon falls into the deep sea</p>
+                <a href="your-link-here" class="btn" target="_blank">Play</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/media/image-07.png" alt="">
+              <div class="text">
+                <h2> Games of Thrones</h2>
+                <p>and the moon falls into the deep sea</p>
+                <a href="your-link-here" class="btn" target="_blank">Play</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/media/image-08.png" alt="">
+              <div class="text">
+                <h2>Pigy pigy</h2>
+                <p>see thousands of stars shinning</p>
+                <a href="your-link-here" class="btn" target="_blank">Play</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/media/image-02.png" alt="">
+              <div class="text">
+                <h2> Prison break</h2>
+                <p>see thousands of stars shinning</p>
+                <a href="your-link-here" class="btn" target="_blank">Play</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/media/image-04.png" alt="">
+              <div class="text">
+                <h2> Prison break</h2>
+                <p>see thousands of stars shinning</p>
+                <a href="your-link-here" class="btn" target="_blank">Play</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact form and map -->
+      <!-- contact form and map -->
+      <section class="contact-map-container">
+        <!-- Contact form -->
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <!-- Map -->
+        <div class="map">
+          <h2>Location</h2>
+          <div id="google-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d328687.06272012653!2d-97.1620006!3d49.9388241!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1710294719072!5m2!1sen!2sca"
+              width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+      </section>
+    </main>
+    <footer>
+      <div class="container flex sb">
+        <div class="new-movies-alert">
+          <p>Receive new movie alerts</p>
+          <form class="flex footer-form">
+            <input type="text" class="footer-email" placeholder="Email">
+            <button class="footer-button">Submit</button>
+          </form>
+        </div>
+        <p class="cc">&copy; final-project 2024</p>
+      </div>
+    </footer>
+</body>
+<!-- Hello -->
 
 </html>
