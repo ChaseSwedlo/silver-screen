@@ -53,7 +53,9 @@ body {
     width: 258px;
 }
 
-.num-four, .num-five, .num-six {
+.num-four,
+.num-five,
+.num-six {
     width: 261px;
 }
 
@@ -61,7 +63,8 @@ body {
     width: 241px;
 }
 
-.num-eight, .num-nine {
+.num-eight,
+.num-nine {
     width: 259px;
 }
 
@@ -69,7 +72,7 @@ body {
     width: 287px;
 }
 
-.movie-box figure{
+.movie-box figure {
     height: 200px;
     width: 159px;
 }
@@ -92,11 +95,16 @@ body {
     margin-right: -50px;
 }
 
-.num-four h1, .num-five h1, .num-six h1 {
+.num-four h1,
+.num-five h1,
+.num-six h1 {
     margin-right: -57px;
 }
 
-.num-three h1, .num-seven h1, .num-eight h1, .num-nine h1 {
+.num-three h1,
+.num-seven h1,
+.num-eight h1,
+.num-nine h1 {
     margin-right: -55px;
 }
 
@@ -111,27 +119,34 @@ body {
     Tried to use :not(.numfour) here but would not work
     Had to resort to hard coding it
 */
-.num-one, .num-two, .num-three, 
-.num-five, .num-six, .num-seven, 
-.num-eight, .num-nine, .num-ten {
+.num-one,
+.num-two,
+.num-three,
+.num-five,
+.num-six,
+.num-seven,
+.num-eight,
+.num-nine,
+.num-ten {
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #585858;
 }
 
 .num-four {
     text-shadow:
-      3px 3px 0 #585858,
-      -3px 3px 0 #585858,
-      -3px -3px 0 #585858,
-      3px -3px 0 #585858;
-  }
+        3px 3px 0 #585858,
+        -3px 3px 0 #585858,
+        -3px -3px 0 #585858,
+        3px -3px 0 #585858;
+}
+
 /*Top Movies end*/
 
 
 /*--------------------------*/
 /*   CAROUSEL-LANDING       */
 /*--------------------------*/
-  
+
 /*skeleton*/
 .landing-page {
     position: relative;
@@ -142,7 +157,7 @@ body {
     overflow-x: auto;
     white-space: nowrap;
 }
-  
+
 .box {
     position: relative;
     height: var(--landing-page-height);
@@ -158,34 +173,52 @@ body {
     scroll-padding-inline: 0px;
 }
 
-.snap > * {
+.snap>* {
     scroll-snap-align: start;
 }
-  
+
 ::-webkit-scrollbar {
     display: none;
-}  
+}
+
 /*end skeleton*/
 
 /* movie-information */
-.dune {background: #fff url(../media/land-dune.jpg) center / cover no-repeat;}
-.argylle {background: #fff url(../media/land-argylle.webp)  center 0px / cover no-repeat;}
-.poor-things{background: #fff url(../media/land-poor-things.jpg) center / cover no-repeat;}
-.cabrini {background: #fff url(../media/land-cabrini.jpg) center / cover no-repeat;}
-.madam-web{background: #fff url(../media/land-web.jpg) center / cover no-repeat;}
-.one-life{background: #fff url(../media/land-one-life.webp) center / cover no-repeat;}
+.dune {
+    background: #fff url(../media/land-dune.jpg) center / cover no-repeat;
+}
+
+.argylle {
+    background: #fff url(../media/land-argylle.webp) center 0px / cover no-repeat;
+}
+
+.poor-things {
+    background: #fff url(../media/land-poor-things.jpg) center / cover no-repeat;
+}
+
+.cabrini {
+    background: #fff url(../media/land-cabrini.jpg) center / cover no-repeat;
+}
+
+.madam-web {
+    background: #fff url(../media/land-web.jpg) center / cover no-repeat;
+}
+
+.one-life {
+    background: #fff url(../media/land-one-life.webp) center / cover no-repeat;
+}
 
 .info {
     align-self: end;
     margin-bottom: 10%;
 }
-  
+
 h2 {
     color: #fff;
     font-size: 40px;
     line-height: 30px;
     font-weight: 400;
-} 
+}
 
 h3 {
     font-size: 20px;
@@ -242,9 +275,14 @@ h3 {
 .scroll-button.visible {
     visibility: visible;
 }
-  
-.right {right: 0px;}
-.left {left: 0px;}
+
+.right {
+    right: 0px;
+}
+
+.left {
+    left: 0px;
+}
 
 .right:before {
     position: absolute;
@@ -265,6 +303,7 @@ h3 {
     height: 100%;
     content: '';
 }
+
 /*end landing-page-arrows*/
 
 
@@ -278,34 +317,33 @@ h3 {
 /*--------------------------*/
 @media (max-width: 992px) {
     .box {
-    height: 500px;
+        height: 500px;
     }
-  }
-     
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .box {
         height: 450px;
-        }
-  }
-  
-  @media (max-width: 480px) {
+    }
+}
+
+@media (max-width: 480px) {
     .box {
         height: 400px;
-        }
-  }
+    }
+}
 
 
 
 
-  /*--------------------------*/
-  /*   PRODUCTS IMAGES */
-  /*-------------------------------------------------*/
+/*--------------------------*/
+/*   PRODUCTS IMAGES */
+/*-------------------------------------------------*/
 
 
 .container-yang {
-    padding: var(--defualt-margin) 0;
+    padding: var(--defualt-margin) 0; 
     width: 100svw;
-    /* height: 50vh; */
     align-items: center;
     /* 弹性布局 允许换行 水平居中 */
     display: flex;
@@ -320,12 +358,13 @@ h3 {
     width: 190px;
     height: 240px;
     overflow: hidden;
-    margin: 10px;
+    margin: 10px; 
     background-color: #000;
     color: #fff;
     cursor: pointer;
     position: relative;
     border-radius: 10px;
+
 }
 
 .card img {
@@ -362,9 +401,6 @@ h3 {
     transition-delay: 0.3s;
 }
 
-/* .card .text h2 span {
-    font-weight: 800;
-} */
 
 .card .text p {
     font-weight: 400;
@@ -420,29 +456,35 @@ h3 {
 
 /* -------------Contact Form and Map-------------------------- */
 
+
 .contact-map-container {
-    margin: var(--defualt-margin) 0;
-    background-color: rgb(33, 33, 33);
-    width: 1040px;
-    /* height: 50vh; */
-    align-items: center;
+    width: 1100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
+    padding: 40px 40px;
+    align-items: center;
+
 }
 
-.contact-form {
-    width: 300px;
-    margin: 0 auto;
-    padding: var(--defualt-margin) 0;
+.contact-form{
+    width:300px
 }
 
 
 .contact-form h2 {
+    font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
 }
+
+.map h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 .form-group {
     margin-bottom: 20px;
@@ -458,29 +500,41 @@ input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    padding: 7px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
+
 textarea {
     resize: vertical;
-    /* 允许垂直调整文本框大小 */
+    outline: none;
+    -moz-appearance: none;
+    resize: none;
 }
 
 button[type="submit"] {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    border: 2px solid #e36f1c;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    background-color: transparent;
+    color: #fff
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    /* background-color: #0056b3; */
 }
+
+@media (max-width: 600px) {
+
+    .contact-form,
+    .map {
+        width: 300px;
+         margin: 10px 0;     
+    }
+ } 
