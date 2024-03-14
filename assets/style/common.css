@@ -201,7 +201,7 @@ footer {
 
 .footer-button {
     height: 36px;
-    background-color: #e36f1c;
+    background-color: var(--primary-color);
     padding: 0 12px;
     margin-top: -20px;
     margin-left: -5px;
@@ -209,16 +209,14 @@ footer {
     font-weight: 500;
     margin-bottom: 5px;
     transition-duration: 0.2s;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 .footer-button:hover {
-    background-color: #ec873f;
+    background-color: #4ec4f6;
 }
 
 .footer-button:active {
-    background-color: #c8661f;
+    background-color: #208fbf;
 }
 
 @media (max-width: 528px) {
