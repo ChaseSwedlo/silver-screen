@@ -489,6 +489,18 @@ button[type="submit"]:hover {
         margin-top: 60px;
     }
 
+    
+    .movie-seat {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+      }
+
+    .detail .four-box {
+        flex: 100% ;
+        max-width: 100% ;
+      }
+
   }
   
   @media (max-width: 480px) {
