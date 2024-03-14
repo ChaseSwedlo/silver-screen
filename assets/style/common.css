@@ -221,9 +221,23 @@ footer {
 }
 
 @media (max-width: 528px) {
+    .cc-box {
+        width: 50%;
+        padding-left: 5px;
+        overflow: hidden;
+    }
     .cc {
-        display: none;
-        
+        text-align: right;
+    }
+    .new-movies-alert {
+        padding-left: 5px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 459px) {
+    .new-movies-alert p {
+        padding-bottom: 7px;
     }
 }
 /*end footer*/
