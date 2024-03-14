@@ -219,7 +219,7 @@ body {
     background-color: var(--primary-color);
 }
 
-.movie-ticket {
+.movie-ticket, button[type="submit"] {
     padding: 5px 25px;
     border: 2px solid var(--primary-color);
     background-color: transparent;
@@ -431,6 +431,9 @@ iframe {
     width: 100%;
 }
 
+.locate input {
+    margin-bottom: 15px;
+}
 
 .locate h2 {
     text-align: center;
@@ -450,12 +453,6 @@ textarea {
 }
 
 button[type="submit"] {
-    padding: 10px 25px;
-    border: 2px solid var(--primary-color);
-    cursor: pointer;
-    background-color: transparent;
-    font-size: 16px;
-    color: #fff;
     margin-top: 20px;
 }
 
