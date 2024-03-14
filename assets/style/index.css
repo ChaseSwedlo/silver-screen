@@ -41,8 +41,13 @@ body {
     height: 200px;
 }
 
+.top-ten-movies a {
+    color: rgba(255, 255, 255, 0);
+}
+
 .num-one {
     width: 227px;
+    text-decoration: none;
 }
 
 .num-two {
@@ -219,6 +224,11 @@ body {
     border: 2px solid var(--primary-color);
     background-color: transparent;
     color: #fff;
+    transition-duration: 0.2s;
+}
+
+.movie-ticket:hover {
+    background-color: var(--primary-color);
 }
 
 /*end movie information*/

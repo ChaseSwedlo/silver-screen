@@ -2,6 +2,11 @@
   gap: 20px;
 }
 
+.header-button {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .detail {
   padding: 60px 0;
   overflow: hidden;
