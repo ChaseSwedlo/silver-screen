@@ -224,6 +224,11 @@ body {
     border: 2px solid var(--primary-color);
     background-color: transparent;
     color: #fff;
+    transition-duration: 0.2s;
+}
+
+.movie-ticket:hover {
+    background-color: var(--primary-color);
 }
 
 /*end movie information*/
