@@ -4,6 +4,7 @@
 
 .detail {
   padding: 60px 0;
+  overflow: hidden;
 }
 
 .row {
@@ -60,10 +61,10 @@
 /*reccomended movies*/
 .rec-movies {
   overflow: scroll;
-  background-color: red;
   width: 100%;
   overflow-x: auto;
   white-space: nowrap;
+  padding: 50px 0;
 }
 
 .movie-box {
