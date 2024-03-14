@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 :root {
     --background: rgb(246, 246, 250);
     --header-color: #0b132b;
@@ -83,7 +84,6 @@ ul li a:hover, .login-button:hover{
     background-color: rgb(244, 244, 247);
     width: 350px;
     height: 460px;
-    border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.105);
     transform: translateY(-10px);
     transition-duration: 0.5s;
@@ -125,7 +125,7 @@ ul li a:hover, .login-button:hover{
     font-weight: 400;
     transition-duration: 0.2s;
 }
-/*fff*/
+
 .log-in-form .button:hover {
     background-color: #2892fb;
 }
