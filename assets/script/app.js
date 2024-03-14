@@ -116,7 +116,6 @@ dialogueButton.addEventListener("click", (evnt) => {
     }
 });
 //End Verification
-//dasdadsasfgsdg
 
 //Top movies scroll
 //Did this to adjust for mouse scrolling.
@@ -127,14 +126,12 @@ topMoviesDiv.addEventListener('wheel', function(event) {
 });
 
 // SCROLL LANDING-PAGE //
-
 const container = document.querySelector(".scroll");
 const leftButton = document.querySelector(".left");
 const rightButton = document.querySelector(".right");
 const arrows = document.querySelectorAll(".scroll-button");
 let currentIndex = 0;
 const boxes = document.querySelectorAll(".box");
-
 
 function scrollRight() {
   currentIndex++;
@@ -161,7 +158,6 @@ function scrollLeft() {
 }
 rightButton.addEventListener("click", scrollRight);
 leftButton.addEventListener("click", scrollLeft);
-
 // END SCROLL LANDING-PAGE
 
 // SCROLL-LANDING ARROW VISIBILITY 

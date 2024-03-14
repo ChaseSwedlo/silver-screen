@@ -132,11 +132,9 @@ body {
   }
 /*Top Movies end*/
 
-
 /*--------------------------*/
 /*   CAROUSEL-LANDING       */
 /*--------------------------*/
-  
 /*skeleton*/
 .landing-page {
     position: relative;
@@ -230,11 +228,9 @@ body {
 .movie-ticket:hover {
     background-color: var(--primary-color);
 }
-
 /*end movie information*/
 
 /*landing-page-arrows*/
-
 .scroll-button {
     position: absolute;
     font-size: 30px;
@@ -277,18 +273,13 @@ body {
 }
 /*end landing-page-arrows*/
 
-
 /*--------------------------*/
 /*   END-CAROUSEL-LANDING   */
 /*--------------------------*/
 
-
-
-
-
-  /*--------------------------*/
-  /*   PRODUCTS IMAGES */
-  /*-------------------------------------------------*/
+/*--------------------------*/
+/*   PRODUCTS IMAGES */
+/*--------------------------*/
 
 .container-yang:first-of-type {
     padding-top: var(--defualt-margin);
@@ -308,8 +299,6 @@ body {
     justify-content: center;
     background-color: rgb(24, 24, 24);
 }
-
-
 
 .card {
     width: 190px;
@@ -338,9 +327,7 @@ body {
     padding: 0 18px;
 }
 
-
-.card .text h2,
-.card .text p {
+.card .text h2, .card .text p {
     margin-bottom: 6px;
     opacity: 0;
     transition: 0.35s;
@@ -356,16 +343,11 @@ body {
     transition-delay: 0.3s;
 }
 
-/* .card .text h2 span {
-    font-weight: 800;
-} */
-
 .card .text p {
     font-weight: 400;
     transform: translate(0%, 30%);
     font-size: 13px;
 }
-
 
 .card .text .btn {
     display: none;
@@ -384,7 +366,6 @@ body {
 
 .card:hover .text .btn {
     display: block;
-    /* 悬停时显示按钮 */
 }
 
 /* hover animation*/
@@ -412,7 +393,6 @@ body {
 }
 
 /* -------------Contact Form and Map-------------------------- */
-
 .locate {
     padding: 60px 0;
 }
@@ -425,7 +405,6 @@ body {
 form {
     color: #fff;
 }
-
 
 iframe {
     width: 100%;
@@ -445,9 +424,7 @@ textarea {
     resize: none;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
+input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 7px;
 }
@@ -459,8 +436,6 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: var(--primary-color);
 }
-
-
 
 /*--------------------------*/
 /*   RESPONSIVE             */
@@ -488,8 +463,6 @@ button[type="submit"]:hover {
     .map h2 {
         margin-top: 60px;
     }
-
-    
     .movie-seat {
         display: flex; 
         justify-content: center; 
@@ -500,7 +473,6 @@ button[type="submit"]:hover {
         flex: 100% ;
         max-width: 100% ;
       }
-
   }
   
   @media (max-width: 480px) {
