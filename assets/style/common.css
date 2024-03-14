@@ -209,6 +209,8 @@ footer {
     font-weight: 500;
     margin-bottom: 5px;
     transition-duration: 0.2s;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .footer-button:hover {
@@ -217,5 +219,12 @@ footer {
 
 .footer-button:active {
     background-color: #c8661f;
+}
+
+@media (max-width: 528px) {
+    .cc {
+        display: none;
+        
+    }
 }
 /*end footer*/
