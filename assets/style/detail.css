@@ -1,6 +1,10 @@
+.gap-20 {
+  gap: 20px;
+}
 
 .detail {
   padding: 60px 0;
+  overflow: hidden;
 }
 
 .row {
@@ -54,3 +58,15 @@
   margin-right: 5px;
 }
 
+/*reccomended movies*/
+.rec-movies {
+  overflow: scroll;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 50px 0;
+}
+
+.movie-box {
+  height: 236px;
+}
