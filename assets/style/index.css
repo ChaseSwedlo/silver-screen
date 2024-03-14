@@ -180,14 +180,14 @@ body {
     margin-bottom: 10%;
 }
   
-h2 {
+.locate h2 {
     color: #fff;
     font-size: 40px;
     line-height: 30px;
     font-weight: 400;
 } 
 
-h3 {
+.locate h3 {
     font-size: 20px;
 }
 
@@ -273,27 +273,6 @@ h3 {
 /*--------------------------*/
 
 
-/*--------------------------*/
-/*   RESPONSIVE             */
-/*--------------------------*/
-@media (max-width: 992px) {
-    .box {
-    height: 500px;
-    }
-  }
-     
-  @media (max-width: 768px) {
-    .box {
-        height: 450px;
-        }
-
-  }
-  
-  @media (max-width: 480px) {
-    .box {
-        height: 400px;
-        }
-  }
 
 
 
@@ -326,7 +305,6 @@ h3 {
     color: #fff;
     cursor: pointer;
     position: relative;
-    border-radius: 10px;
 }
 
 .card img {
@@ -357,7 +335,7 @@ h3 {
     font-weight: 1000;
     font-size: 14px;
     font-weight: 500;
-    color: aqua;
+    color: var(--primary-color);
     text-transform: uppercase;
     transform: translate(30%, 0%);
     transition-delay: 0.3s;
@@ -377,14 +355,13 @@ h3 {
 .card .text .btn {
     display: none;
     margin-top: 20px;
-    background-color: #94c9d2;
+    background-color: #28ade4;
     color: #fff;
     font-size: 15px;
     padding: 5px 10px;
     width: 100px;
     box-sizing: border-box;
     border: none;
-    border-radius: 15px;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
@@ -421,38 +398,33 @@ h3 {
 
 /* -------------Contact Form and Map-------------------------- */
 
-.contact-map-container {
-    margin: var(--defualt-margin) 0;
-    background-color: rgb(33, 33, 33);
-    width: 1040px;
-    /* height: 50vh; */
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
+.locate {
+    padding: 60px 0;
 }
 
-.contact-form {
-    width: 300px;
-    margin: 0 auto;
-    padding: var(--defualt-margin) 0;
+.half-box {
+    flex: 0 0 calc(50% - 20px);
+    max-width: calc(50% - 20px);
 }
 
-
-.contact-form h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
+form {
     color: #fff;
+}
+
+
+iframe {
+    width: 100%;
+}
+
+
+.locate h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+textarea {
+    resize: none;
 }
 
 input[type="text"],
@@ -460,28 +432,55 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 7px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-textarea {
-    resize: vertical;
-    /* 允许垂直调整文本框大小 */
 }
 
 button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    padding: 10px 25px;
+    border: 2px solid var(--primary-color);
     cursor: pointer;
+    background-color: transparent;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    color: #fff;
+    margin-top: 20px;
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: var(--primary-color);
 }
+
+
+
+/*--------------------------*/
+/*   RESPONSIVE             */
+/*--------------------------*/
+@media (max-width: 992px) {
+    .box {
+    height: 500px;
+    }
+  }
+     
+  @media (max-width: 768px) {
+    .box {
+        height: 450px;
+    }
+
+    .half-box {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .locate h2 {
+        margin-bottom: 30px;
+    }
+
+    .map h2 {
+        margin-top: 60px;
+    }
+
+  }
+  
+  @media (max-width: 480px) {
+    .box {
+        height: 400px;
+    }
+  }
