@@ -64,6 +64,7 @@
 
 /*reccomended movies*/
 .rec-movies {
+  background-color: rgb(22, 22, 24);
   overflow: scroll;
   width: 100%;
   overflow-x: auto;
